@@ -1,0 +1,107 @@
+/* Stylesheet for Projects Page */
+
+
+/* General */
+* 
+{
+	background-color: #F4F4F4;
+}
+
+::selection
+{
+	background: #C0B283;
+	color: #F4F4F4;
+}
+
+::-moz-selection
+{
+	background: #C0B283;
+	color: #F4F4F4;
+}
+
+
+/* Menu Formatting */
+.menu
+{
+	overflow: hidden;
+	background-color: #C0B283;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu > a:link, .menu > a:visited
+{
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #C0B283;
+	font-family: 'Open Sans';
+	font-size: 20px;
+	color: #373737;
+}
+
+.menu > a:hover
+{
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #DCD0C0;
+	font-family: 'Open Sans';
+	font-size: 20px;
+	color: #373737;
+}
+
+
+
+/* Body Formatting */
+a
+{
+	text-decoration: none;
+	color: #C0B283;
+}
+
+h1
+{
+	font-size: 50px;
+	font-family: 'Lilita One';
+	letter-spacing: 15px;
+	text-align: center;
+}
+
+p
+{
+	margin: 50px;
+	font-size: 25px;
+	font-family: 'Josefin Sans';
+	line-height: 40px;
+}
+
+
+
+/******** Projects Page Formatting ********/
+ul
+{
+	font-family: 'Josefin Sans';
+	font-size: 25px;
+	list-style-type: square;
+	margin-left: 50px;
+}
+
+ul > li
+{
+	line-height: 40px;
+	margin: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

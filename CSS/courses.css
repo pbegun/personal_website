@@ -1,0 +1,109 @@
+/* Stylesheet for Website */
+
+
+/* General */
+* 
+{
+	background-color: #F4F4F4;
+}
+
+::selection
+{
+	background: #C0B283;
+	color: #F4F4F4;
+}
+
+::-moz-selection
+{
+	background: #C0B283;
+	color: #F4F4F4;
+}
+
+
+/* Menu Formatting */
+.menu
+{
+	overflow: hidden;
+	background-color: #C0B283;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menu > a:link, .menu > a:visited
+{
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #C0B283;
+	font-family: 'Open Sans';
+	font-size: 20px;
+	color: #373737;
+}
+
+.menu > a:hover
+{
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	background-color: #DCD0C0;
+	font-family: 'Open Sans';
+	font-size: 20px;
+	color: #373737;
+}
+
+
+/* Body Formatting */
+a
+{
+	text-decoration: none;
+	color: #C0B283;
+}
+
+
+h1
+{
+	font-size: 50px;
+	font-family: 'Lilita One';
+	letter-spacing: 15px;
+	text-align: center;
+}
+
+
+p
+{
+	margin: 50px;
+	font-size: 25px;
+	font-family: 'Josefin Sans';
+	line-height: 40px;
+}
+
+
+
+/******** Course Page Formatting ********/
+table
+{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 80px;
+}
+
+td
+{
+	text-align: center;
+	line-height: 30px;
+}
+
+table, th, td
+{
+	border: 1px solid #373737;
+	border-collapse: collapse;
+	font-family: 'Josefin Sans';
+	font-size: 20px;
+	padding: 10px;
+}
+
+
+
+
+
+
