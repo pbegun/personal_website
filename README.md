@@ -1,5 +1,4 @@
-# Personal Website
-## (http://www.paigebegun.com)
+# Personal Website (http://www.paigebegun.com)
 
 This is the source code for my personal website.
 
